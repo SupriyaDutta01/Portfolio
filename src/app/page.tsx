@@ -143,8 +143,8 @@ export default function Page() {
                   description={project.description}
                   dates={project.dates}
                   tags={project.technologies}
-                  image={project.image}
-                  video={project.video}
+                  // image={project.image}
+                  // video={project.video}
                   links={project.links}
                 />
               </BlurFade>
@@ -208,7 +208,7 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me {" "}
                 <Link
-                  href={`mailto:${DATA.email}`}
+                  href={`mailto:${DATA.contact.email}`}
                   className="text-blue-500 hover:underline"
                 >
                   an email
